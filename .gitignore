@@ -1,2 +1,6 @@
-# add extractor_pipeline as ignored directory
+# add extractor_pipeline and its content to gitignore
 extractor_pipeline/
+
+# pdfs and pngs are not needed in the repo
+*.pdf
+*.png
