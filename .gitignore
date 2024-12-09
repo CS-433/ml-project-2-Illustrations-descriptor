@@ -1,1 +1,2 @@
-./extractor_pipeline/
+# add extractor_pipeline as ignored directory
+extractor_pipeline/
