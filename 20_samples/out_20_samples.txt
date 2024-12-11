@@ -1,0 +1,288 @@
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+[EVAL] Loading model...
+
+Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]
+Loading checkpoint shards:  17%|█▋        | 1/6 [00:08<00:43,  8.62s/it]
+Loading checkpoint shards:  33%|███▎      | 2/6 [00:16<00:33,  8.46s/it]
+Loading checkpoint shards:  50%|█████     | 3/6 [00:25<00:25,  8.40s/it]
+Loading checkpoint shards:  67%|██████▋   | 4/6 [00:33<00:16,  8.28s/it]
+Loading checkpoint shards:  83%|████████▎ | 5/6 [00:41<00:08,  8.28s/it]
+Loading checkpoint shards: 100%|██████████| 6/6 [01:12<00:00, 16.09s/it]
+Loading checkpoint shards: 100%|██████████| 6/6 [01:12<00:00, 12.16s/it]
+Model loaded: llava-v1.6-vicuna-13b; Conversation mode: llava_v1.
+[EVAL] Building prompt...
+Prompt given: USER: Describe the image exhaustively. The first sentence should be a description of the content, and the second sentence should be a description of the actions in the image.
+[EVAL] Building images and running inference for samples/lifedeathjennywr00newyiala_page1.png...
+----------------------
+Model output for samples/lifedeathjennywr00newyiala_page1.png:
+This image appears to be the cover of a book titled "Children's Book Collection" from the Library of the University of California. The cover art features a stylized illustration of a bird, possibly a robin, perched on a branch with a backdrop of what looks like a forest or garden setting. The text on the cover is handwritten, which gives it a personal or vintage feel. The book seems to be part of a collection aimed at children, as suggested by the title.
+----------------------
+
+[EVAL] Building images and running inference for samples/selecttalesinpro00parliala_page213.png...
+----------------------
+Model output for samples/selecttalesinpro00parliala_page213.png:
+The image you've provided appears to be the cover of a book titled "FIRESIDE VERSES. Beautifully Illustrated." The author is credited as "Mary Howitt," and the book is priced at 1 shilling, with a note that it contains nearly fifty woodcuts. The title of the book is "The Gospel Preached to Babes," and it is described as "Practically in the Words of One and Two Kings." The author is also noted as the author of "Mussings." The cover also includes a quote that says, "Out of the mouths of babes and sucklings hast thou ordained strength." This quote is from the Bible, specifically from Psalms 8:2. The cover design is simple, with a central illustration and text arranged around it. The style of the image suggests it is from a historical publication, likely from the 19th century, given the font and design elements.
+----------------------
+
+[EVAL] Building images and running inference for samples/storiesforhouseh00andeiala_page104.png...
+----------------------
+Model output for samples/storiesforhouseh00andeiala_page104.png:
+The image you've provided appears to be a page from a book or a magazine, featuring an illustration and accompanying text. The illustration depicts a scene with two figures, one of whom is lying down and the other standing over them. The standing figure seems to be a woman, and the one lying down could be a child or a small adult. The woman is looking down at the other figure with a concerned or caring expression.
+
+The text on the page is a narrative that describes a scene where a mother is watching over her sick child. The mother is described as being old and the child as being young. The text mentions that the mother is trying to warm the child, who is shivering, and that the child is drawing its breath painfully. The mother is described as being very concerned and attentive to the child's needs.
+
+The style of the illustration is reminiscent of 19th-century art, with a focus on realism and a sense of emotion conveyed through the characters' expressions and body language. The text is written in a formal, literary style, which suggests that the story might be from a classic or historical work.
+
+Please note that the text is too small to read in detail, and the image quality is not high enough to provide a transcription of the text.
+----------------------
+
+[EVAL] Building images and running inference for samples/littlemaryorpict00ceciiala_page21.png...
+----------------------
+Model output for samples/littlemaryorpict00ceciiala_page21.png:
+The image you've provided appears to be a page from a book or a printed document. The text on the page is a bit blurry and difficult to read, but I'll do my best to transcribe it for you:
+
+"10
+Little Mary was eating her break- fast when she saw a Robin red-breast standing on a rail, at a little distance; she gathered the crumbs as fast"
+
+Please note that the text is incomplete and the last word is cut off, so I'm unable to provide the full context or the rest of the sentence. If you need a specific part of the text, please let me know, and I'll do my best to help.
+----------------------
+
+[EVAL] Building images and running inference for samples/daisycaution00turniala_page44.png...
+----------------------
+Model output for samples/daisycaution00turniala_page44.png:
+The image you've provided appears to be a page from a book, specifically from "The New Penny Magazine," as indicated by the text at the top. The page contains a poem titled "XX." The poem tells a story of a man who is poor and at the door of a woman named Miss Ann. The man is described as having a pretty new Penny, which is a reference to the name of the magazine. The poem goes on to describe how Miss Ann is kind to the man and gives him a pat on the head. The text is in a formal, old-fashioned font, which is typical of the era in which the magazine was published. The illustration accompanying the poem shows a man and a woman, with the man holding a hat and the woman extending her hand towards him. The style of the illustration is reminiscent of the 19th century, with a focus on detailed line work and shading.
+----------------------
+
+[EVAL] Building images and running inference for samples/inquisitivejackh00goodiala_page39.png...
+----------------------
+Model output for samples/inquisitivejackh00goodiala_page39.png:
+The image you've provided appears to be a page from a book, specifically Chapter IV of "Inquisitive Jack." The text on the page is a story about beetles, and there are illustrations of two beetles. The text is quite small and somewhat difficult to read, but I can provide a summary of the content visible in the image:
+
+The story begins with a description of a day when Jack was going along in the field, and he saw a dead mole lying up on the ground. He took it up, and admired its soft fur, and the rays upon its nose, making it look in shape like a star. He looked very carefully to see if it had eyes, for he had been told that moles are blind. After looking all over the head of the mole, Jack at last discovered two little eyes, as black and shining as beads, very near the creature's nose. They were deeply hidden in the fur, and for this reason it is that people say that a mole is blind. Jack, by investigating for himself, discovered the truth, which is that moles are not blind but have eyes that are hidden in the fur.
+
+The illustrations show two beetles, one on the left and one on the right. The beetle on the left is depicted in a more detailed manner, showing its elytra (the hardened wing covers) and antennae, while the beetle on the right is shown in a more simplified form. The text and illustrations together provide a visual and textual representation of the story about beetles.
+----------------------
+
+[EVAL] Building images and running inference for samples/ursulaathome00grif_page275.png...
+----------------------
+Model output for samples/ursulaathome00grif_page275.png:
+The image you've provided appears to be a black and white photograph of a dog. The dog is facing the camera and seems to be looking directly at the viewer. The photo is placed within a square frame, which is centered on a page. The text "TUTU" is written below the frame, which could be the name of the dog or the title of the photograph. The style of the image suggests it might be from an older photograph collection or a book, given the square format and the text placement.
+----------------------
+
+[EVAL] Building images and running inference for samples/chitchatorshortt00buddiala_page96.png...
+----------------------
+Model output for samples/chitchatorshortt00buddiala_page96.png:
+The image you've provided appears to be a page from a book or a manuscript. The text is a bit difficult to read due to the quality of the image, but I'll do my best to transcribe it for you:
+
+"Chit-chat.
+
+89
+
+Part IV.
+
+The good sister.
+
+"Come, Charles, and I will tell you all the tales I can think of, so be still and hear me."
+
+Janet was left an orphan very young, and she had a little brother and a little sister to share her sad fate. It was a pretty sight to see her and them ; she, working at a table, with a basketful"
+
+The text is cut off, and the rest of the page is not visible in the image. If you need the rest of the transcription, please provide a clearer image or more context.
+----------------------
+
+[EVAL] Building images and running inference for samples/museedepoup00pari_page56.png...
+----------------------
+Model output for samples/museedepoup00pari_page56.png:
+The image you've provided appears to be a page from a book or a magazine, featuring a historical fashion illustration. The text is in French, and it seems to be discussing the fashion of the time, specifically mentioning a "La Reine Amelie" dress. The text also refers to the "Poupee dite" and "La Reine Amelie," which could be the title of the fashion or the historical context related to the dress.
+
+The illustration shows a person wearing a dress with a high waist, puffy sleeves, and a large skirt, which is characteristic of fashion from the 19th century. The dress is adorned with a large bow or sash at the waist, which was a common feature in women's fashion during that era. The person is also wearing a hat, which further suggests the historical context of the fashion.
+
+The text below the illustration seems to be discussing the fashion trends of the time, mentioning that the fashion was remarkable and brilliant, and that it was a soigneuse and lorquette style, which translates to elegant and refined. It also mentions that the fashion was popular among women of high society, and that it was a fashion that was often worn by the queen.
+
+The page number "51" is visible at the top right corner, indicating that this is likely one of the many pages in the book or magazine. The overall style of the image, including the font and the illustration, suggests that it is from a historical publication, possibly from the 19th century itself or a book that discusses the fashion of that era.
+----------------------
+
+[EVAL] Building images and running inference for samples/oldwomanthesilve00londiala_page5.png...
+----------------------
+Model output for samples/oldwomanthesilve00londiala_page5.png:
+The image you've provided appears to be a page from a book or a magazine, featuring an illustration and text. The illustration depicts a scene with a woman and a dog, and there are two separate panels with different illustrations and accompanying text.
+
+The text in the upper panel reads: "The Old Woman turned herself about, and said, Good Dog bite Pig, Pig will not get over the stile, and I shall not get home to-night; but the Dog would not."
+
+The text in the lower panel reads: "The Old Woman went on a little further till she came to where she saw Mr. Justice Stick; he was leaning against a bank at his ease. Mother Muggins knowing him to be the gentlest man of all others that had the greatest influence and power over the whole Bow row family, she dropped his a curtsy and spoke to him, as his 'War-Ship' was doing nothing better, he would grant."
+
+The illustrations are in a style that suggests they are from a book or a publication from a past era, possibly Victorian or Edwardian, given the clothing and the style of the illustrations. The text seems to be a story or a narrative, possibly from a children's book or a collection of folktales. The illustrations are detailed and colorful, with a focus on the characters and their interactions.
+----------------------
+
+[EVAL] Building images and running inference for samples/selecttalesinpro00parliala_page118.png...
+----------------------
+Model output for samples/selecttalesinpro00parliala_page118.png:
+The image you've provided appears to be a page from a book or a manuscript. The text is written in a formal, old-fashioned font, which suggests that the content is from an earlier time period. The page number "390" is visible at the top right corner, indicating that this is a specific page within the book.
+
+The text on the page discusses a character named Charles, who is described as a man of great nobility and honor. It mentions that Charles was a traitor, and that after the House of Commons passed a vote, declaring the House of Peers a misnomer, a nuisance, and a danger, Charles was one of the first to be executed.
+
+The text also mentions that Charles was a great negotiator, but his great want of integrity was fatal to him. It is stated that he was a man of great nobility, but that his nobility was not of the same kind as that of the Scots.
+
+The bottom of the page features a black and white illustration of a building, which could be a representation of a house or a structure relevant to the text. The illustration is simple and appears to be a line drawing rather than a detailed, realistic depiction.
+
+The overall style of the image, including the font and the illustration, suggests that this is a historical or literary work, possibly from the 17th or 18th century, given the context of the text and the style of the illustration.
+----------------------
+
+[EVAL] Building images and running inference for samples/childsownbookcon00londiala_page24.png...
+----------------------
+Model output for samples/childsownbookcon00londiala_page24.png:
+The image you've provided appears to be a page from a book or a manuscript, featuring text and an illustration. The text is in English and seems to be discussing a historical or fictional event involving a young lady named "Mrs. Frisk Game." The text mentions that Mrs. Frisk Game was a servant to a man named "Mr. Frisk Game," and that she was accused of stealing a silver spoon. The text also mentions that Mrs. Frisk Game was found guilty and sentenced to hang.
+
+The illustration at the bottom of the page depicts a scene with several figures, including a woman who seems to be Mrs. Frisk Game, a man who could be Mr. Frisk Game, and a group of people who might be witnesses or participants in the event. The style of the illustration is reminiscent of engravings from historical texts, with a monochromatic color scheme and detailed line work.
+
+The text and the illustration together suggest that this page is from a historical or fictional narrative that recounts a story of crime and punishment. The specific context or the source of the text is not clear from the image alone.
+----------------------
+
+[EVAL] Building images and running inference for samples/youthsgoldencycl00frasiala_page312.png...
+----------------------
+Model output for samples/youthsgoldencycl00frasiala_page312.png:
+This is a black and white illustration of a young child, likely a boy, who appears to be asleep or in a state of rest. The child is depicted with a somewhat contemplative or peaceful expression, with their head resting on their hand. The art style suggests it could be from a book or a magazine, given the text "CLEANLINER" at the bottom, which might indicate the title of the publication or the name of the artist. The illustration is detailed, with careful attention to the textures and shading, which gives it a sense of depth and realism.
+----------------------
+
+[EVAL] Building images and running inference for samples/stephenofphilade00otis_page19.png...
+----------------------
+Model output for samples/stephenofphilade00otis_page19.png:
+The image you've provided appears to be a page from a book or a manuscript, featuring text and an illustration. The text is titled "STEPHEN OF PHILADELPHIA" and seems to be a story or a historical account. The illustration depicts two characters, a man and a woman, who are engaged in a conversation. The man is dressed in what looks like 18th-century attire, with a hat and a coat, while the woman is wearing a dress and a bonnet. They are standing outdoors, and the woman is holding a parasol.
+
+The text itself is a bit difficult to read due to the quality of the image, but it seems to be a narrative that includes references to Philadelphia, England, and the American colonies. It mentions a character named Stephen who is described as a "cautious man, however, unwilling to embark in any enterprise, how-ever trifling, until he had first a clear idea of what would be."
+
+The style of the illustration is reminiscent of woodcut prints or engravings, which were common in books from the 18th and 19th centuries. The text and the illustration together suggest that this page is from a historical or biographical work, possibly a children's book or a book aimed at a general audience interested in history.
+----------------------
+
+[EVAL] Building images and running inference for samples/marchen00bech_page49.png...
+----------------------
+Model output for samples/marchen00bech_page49.png:
+The image you've provided appears to be a page from a book or a manuscript, featuring an illustration and text. The illustration depicts a scene with several figures, including a person with a beard and a woman with long hair, both seemingly in a state of distress or struggle. The figures are surrounded by water, and there are various objects and creatures around them, such as a fish and a bird.
+
+The text on the page is in German and seems to be a narrative or a description related to the illustration. It mentions a "Bodem" (which could refer to a person or a character), a "Strom" (which means "stream" or "river"), and a "Tal" (which means "valley"). The text also mentions a "Talgrund" (which means "valley bottom") and a "Talgrunde" (plural for "valley bottoms").
+
+The style of the illustration is reminiscent of medieval or early modern art, with a focus on line work and a limited color palette. The text is written in a traditional, serif font, which is common in historical documents and manuscripts.
+
+The page number "42" is visible at the bottom, indicating that this is one of the pages in the book or manuscript. The overall impression is that of a story or a mythological narrative, possibly from a collection of folktales or a historical text.
+----------------------
+
+[EVAL] Building images and running inference for samples/clintonorboylife00aimwiala_page93.png...
+----------------------
+Model output for samples/clintonorboylife00aimwiala_page93.png:
+The image you've provided appears to be a page from a book or a manuscript, featuring text and an illustration. The text is a narrative that seems to be describing a scene from a story or a historical event. The illustration depicts a person sitting in a chair, seemingly in a state of distress or discomfort. The text is too small and blurry to read in detail, but it seems to be a part of a larger narrative, possibly a novel or a historical account. The style of the illustration is reminiscent of woodcut prints, which were commonly used in books and newspapers during the 19th and early 20th centuries. The image is not clear enough to provide more specific details about the content of the text or the illustration.
+----------------------
+
+[EVAL] Building images and running inference for samples/aesopsfables00weiriala_page200.png...
+----------------------
+Model output for samples/aesopsfables00weiriala_page200.png:
+The image you've provided appears to be a page from a book or a manuscript with text and an illustration. The text is a description of a conversation between a town mouse and a country mouse. The town mouse invites the country mouse to visit and offers to pay him a visit in return. The country mouse accepts the invitation and describes the life in the country, where he lives on the bare plough-lands, eating their wheat-stalks and roots pulled up from the hedge-rows. The town mouse expresses his envy of the country mouse's simple life and the abundance of food he has. The country mouse then describes the life of the town mouse, where he lives in a house full of luxury and has an abundance of food. The text is written in a formal, old-fashioned style, suggesting that the book or manuscript is from an earlier time period. The illustration shows two mice, one larger and one smaller, which likely represents the town mouse and the country mouse respectively.
+----------------------
+
+[EVAL] Building images and running inference for samples/talesaboutunited00parliala_page225.png...
+----------------------
+Model output for samples/talesaboutunited00parliala_page225.png:
+The image you've provided appears to be a page from a book or a publication, featuring text and an illustration. The text is a description of a bird, specifically the condor of South America, which is described as a mighty species of vulture and the largest bird of flight. The text also mentions that condors are known for their disagreeable countenance, and they carry about with them a filthy odour.
+
+The illustration depicts a condor in profile, showing its large wingspan and distinctive features such as the bald head and the dark feathers. The condor is perched on what seems to be a rocky outcrop, which is consistent with the natural habitat of these birds.
+
+The text also includes a note that sometimes condors are seen among the Rocky Mountains within the limits of the United States, suggesting that the condor's range extends into North America.
+
+The page number "206" is visible at the top, indicating that this is likely one of the 206 pages in the book. The word "CONDOR" is also written, which is likely the title of the section or the main subject of the page.
+
+The style of the illustration and the text suggests that this book was likely published in the 19th or early 20th century, given the style of the illustration and the language used in the text.
+----------------------
+
+[EVAL] Building images and running inference for samples/bettywalescostor00ward_page318.png...
+----------------------
+Model output for samples/bettywalescostor00ward_page318.png:
+This is a black and white illustration depicting a scene where a group of people are gathered outside a building, possibly a church or a public building. The central figures are a man and a woman who appear to be engaged in a conversation. The man is holding a hat in his hand, and the woman is wearing a long coat and a hat, suggesting a formal or ceremonial occasion.
+
+The text at the bottom of the image reads "They intercepted the President," which implies that the scene is related to an event involving a president, possibly a historical one. The illustration style is reminiscent of newspaper or magazine illustrations from the late 19th or early 20th century, which were often used to depict current events and historical incidents.
+
+Without additional context, it's difficult to determine the exact nature of the event or the identities of the individuals depicted. However, the image captures a moment of interaction between the man and the woman, which could be interpreted as a significant event in the context of the story or the historical event it represents.
+----------------------
+
+[EVAL] Building images and running inference for samples/littlelordfauntl00burniala_page11.png...
+----------------------
+Model output for samples/littlelordfauntl00burniala_page11.png:
+This is an illustration from a book or a magazine, depicting a scene with a man and a dog. The man is seated and appears to be in a relaxed or contemplative pose, while the dog stands attentively nearby. The setting seems to be a room with a bookshelf in the background, suggesting a domestic or scholarly environment. The text at the bottom of the image includes a dialogue between the man and the dog, which adds a humorous or whimsical element to the scene. The style of the illustration is reminiscent of the late 19th or early 20th century, with a focus on line work and shading to convey the scene.
+----------------------
+
+[EVAL] Building images and running inference for samples/storiesfromarabi00buffiala_page121.png...
+----------------------
+Model output for samples/storiesfromarabi00buffiala_page121.png:
+The image you've provided appears to be a page from a book or a manuscript, featuring an illustration and some text. The illustration depicts a scene with two figures, one of whom is holding a sword and the other is lying on the ground, seemingly injured or dead. The text at the bottom of the page reads "Aladdin killing the false Vizier—p. 99," which suggests that this is a page from a storybook or a collection of tales, and the illustration is related to the story of Aladdin, specifically the moment when Aladdin kills the false vizier. The style of the illustration is reminiscent of traditional storybook illustrations, with a focus on the characters and the action of the scene.
+----------------------
+
+[EVAL] Building images and running inference for samples/imaginotionstrut00jenk_page82.png...
+----------------------
+Model output for samples/imaginotionstrut00jenk_page82.png:
+The image you've provided appears to be a page from a book or a manuscript. It features a black and white illustration of a person standing next to a table with various objects on it, including what looks like a telescope, a compass, and a magnifying glass. The text on the page is a biography or an introduction to the person depicted in the illustration.
+
+The text reads:
+
+"A LOST OPPORTUNITY
+
+MY BIOGRAPHER, if I should ever have any, would say in his first chapter: "From boyhood he evinced an aptitude for the Natural Sciences. He was seldom without a magnifying glass in his pocket, and put it to most excellent use in familial detail. He was a keen observer of the more casual observer."
+
+And in a later part of the same future rival to "Boswell's Johnson" will probably be seen these words: "In later life we see the traits of his boyhood deepened and broadened. The magnifying glass of his school-boy days has become the large and costly binocular microscope surrounded by all the apparatus which the cunning s"
+
+The text is cut off, and the last line is incomplete, but it seems to suggest that the person's interest in the natural sciences and observation continued into adulthood, and that he may have been a rival to James Boswell's biography of Samuel Johnson. The text also mentions a magnifying glass and a microscope, which are tools often associated with scientific observation and study.
+
+The illustration style is reminiscent of classic book illustrations, with a focus on line work and shading to create a sense of depth and texture. The person in the illustration is depicted in a somewhat stylized manner, with exaggerated features and a somewhat whimsical or caricature-like quality.
+
+The page is numbered "5" at the bottom, indicating that this is likely part of a larger work. The overall impression is that of a historical or biographical narrative, possibly from a book that is no longer in print or a manuscript that has not been published.
+----------------------
+
+[EVAL] Building images and running inference for samples/lesmalheursdesop00comt_page72.png...
+----------------------
+Model output for samples/lesmalheursdesop00comt_page72.png:
+The image you've provided appears to be a page from a book or a manuscript. The text is in French, and it seems to be a title page or a page with a title and some accompanying text. The title "VIII" is prominently displayed at the top, which suggests that this is the eighth chapter or section of the book. Below the title, there is a subtitle "Les Sourciils Couples," which translates to "The Eyebrows Couples" in English.
+
+The text on the page is a bit difficult to read due to the quality of the image, but it seems to be a description or a summary of the content of the chapter. It mentions a character named Sophie and refers to her as a "beautiful blonde" and a "beautiful brunette," which translates to "beautiful blonde" and "beautiful brunette" in English. The text also mentions a "petite Louise," which translates to "little Louise."
+
+The bottom of the page features a drawing of an eye, which might be related to the content of the chapter or the theme of the book. The drawing is quite detailed and realistic, capturing the intricate features of an eye.
+
+Without a clearer image or more context, it's challenging to provide a more detailed analysis of the content. If you have any specific questions about the text or the drawing, feel free to ask!
+----------------------
+
+[EVAL] Building images and running inference for samples/myprettyscrapboo00cuppiala_page81.png...
+----------------------
+Model output for samples/myprettyscrapboo00cuppiala_page81.png:
+The image you've provided appears to be a page from a book or a magazine, featuring an illustration and accompanying text. The illustration depicts a scene with two children, a dog, and a cat. The children are standing close to each other, with the dog on the left and the cat on the right. The dog is looking up at the children, and the cat is looking down at the dog. The children seem to be engaged in a playful interaction with the animals.
+
+The text at the top of the page reads "OUT FOR A RAMBLE," and below the illustration, there is a paragraph that says:
+
+"I think these must be very nice children, because of one thing—their dog seems to be very fond of them. He has come back from a good scamper, and is looking up in their faces, sure of being praised."
+
+The style of the illustration is reminiscent of classic children's book illustrations, with a focus on detailed line work and a sense of realism. The text suggests a wholesome, family-friendly theme, possibly related to the joys of outdoor activities and the bond between children and their pets.
+----------------------
+
+[EVAL] Building images and running inference for samples/throughlookinggl00carr7_page191.png...
+----------------------
+Model output for samples/throughlookinggl00carr7_page191.png:
+The image you've provided appears to be a page from a book or a printed document, featuring a hand-drawn illustration of a character and text. The illustration depicts a woman with a very long neck, standing with her hands on her hips. The text is a monologue or a dialogue that seems to be from a story or a character's thoughts. It reads:
+
+"quill dull and stupid for things b go on in the common way
+So she set to work, and very soon finished off the cake
+"Curioser and curiouser!" cried Alice (she was so surprised that she forgot how to speak good English)
+now I'm opening out like the largest telescope that ever was! Good-bye, feet! (for when she looked down at her feet, they seemed to be getting very far off). I wonder who in the world am I? Ah, that's the great puzzle!
+
+And she began thinking over all the children at school: this was a very good plan, because she had been there such a long time, and she knew all the games they played, and the names of all the little girls and boys: perhaps she was a child herself.
+
+How puzzling it was! And what a curious feeling! She was ready to cry at a moment's notice. And yet she would not let herself cry, for 'crying makes things worse,' as she had been told.
+
+"I wish I could shut up like a telescope!" Alice cries out, half to herself, as she walked along in the wood.
+
+"I wish I could shut up like a telescope!" she repeated, thinking it over.
+
+"I wish I could shut up like a telescope!" she repeated again, as she walked on.
+
+Then, just as she was going to shut up, like a telescope, and just as it seemed quite safe to do so, she heard a little pattering of feet behind her.
+
+"I do wish I had a little bit of a heart!" poor Alice bewails.
+
+Oh dear, what nonsense I'm talking!"
+
+The text is from Lewis Carroll's "Alice's Adventures in Wonderland," and the illustration is likely from a version of the book that has been adapted or illustrated by another artist. The style of the illustration is
+----------------------
+
