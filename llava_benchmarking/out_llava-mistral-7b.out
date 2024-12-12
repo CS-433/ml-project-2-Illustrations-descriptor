@@ -1,0 +1,22 @@
+[EVAL] Loading model...
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards:  25%|██▌       | 1/4 [02:16<06:49, 136.61s/it]Downloading shards:  50%|█████     | 2/4 [04:32<04:32, 136.47s/it]Downloading shards:  75%|███████▌  | 3/4 [06:38<02:11, 131.44s/it]Downloading shards: 100%|██████████| 4/4 [06:45<00:00, 82.35s/it] Downloading shards: 100%|██████████| 4/4 [06:45<00:00, 101.38s/it]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:07<00:23,  7.75s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:15<00:15,  7.74s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:23<00:07,  7.78s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:23<00:00,  4.89s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:23<00:00,  5.95s/it]
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Model loaded: llava-v1.6-mistral-7b; Conversation mode: mistral_instruct.
+Model loaded in 439.38s
+[EVAL] Building prompt...
+Prompt built in 0.09s
+[EVAL] Building images...
+Images built in 0.22s
+[EVAL] Running inference...
+Inference ran in 14.49s
+----------------------
+Model output:
+The image is a captivating illustration that transports us to a medieval town. The scene is dominated by a wooden scaffolding, which serves as a stage for a man dressed in a vibrant red robe. He is engaged in the act of carving a wooden statue, his hands skillfully wielding a chisel.
+
+The statue he is working on is a depiction of a woman, her form captured in a serene pose. The artist's attention is solely on his work, his focus unwavering.
+
+The background of the image provides a glimpse into the bustling life of the town. Buildings of various sizes and shapes fill the scene, their architecture a testament to the era. The sky above is a clear blue, dotted with fluffy white clouds, adding a sense of tranquility to the otherwise busy scene.
+
+The image is rich in detail and color, each element contributing to the overall narrative of a day in the life of a medieval town. The artist's skillful use of color and detail brings the scene to life, making it a fascinating piece of art.

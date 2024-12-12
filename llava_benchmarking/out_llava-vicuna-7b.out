@@ -1,0 +1,20 @@
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+[EVAL] Loading model...
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:07<00:15,  7.91s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:15<00:07,  7.63s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:22<00:00,  7.21s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:22<00:00,  7.35s/it]
+Model loaded: llava-v1.6-vicuna-7b; Conversation mode: llava_v1.
+Model loaded in 25.37s
+[EVAL] Building prompt...
+Prompt built in 0.01s
+[EVAL] Building images...
+Images built in 0.11s
+[EVAL] Running inference...
+Inference ran in 16.09s
+----------------------
+Model output:
+The image is a captivating illustration that transports us to a medieval town. The scene is dominated by a wooden scaffolding, which serves as a stage for a man dressed in a vibrant red shirt and a black hat. He is in the midst of a performance, holding a sword in his hand, perhaps reenacting a scene from a medieval play.
+
+The town itself is a charming blend of architecture, with buildings adorned with pointed roofs and towers reaching towards the sky. The color palette is predominantly earthy, with the buildings and the scaffolding painted in shades of brown and beige, while the man's red shirt and black hat add a pop of color to the scene.
+
+The illustration is signed by the artist "P. P. P.", indicating their creative contribution to this medieval tableau. The text "Le sculpteur de gargouilles" is also present, suggesting that the man on the scaffolding might be a sculptor of gargoyles, adding an intriguing layer of meaning to the image.
+
+Overall, the image is a beautiful blend of history and art, capturing a moment in time in a medieval town.

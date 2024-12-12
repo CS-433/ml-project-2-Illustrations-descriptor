@@ -1,0 +1,16 @@
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+[EVAL] Loading model...
+Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:  17%|█▋        | 1/6 [00:04<00:20,  4.07s/it]Loading checkpoint shards:  33%|███▎      | 2/6 [00:08<00:16,  4.08s/it]Loading checkpoint shards:  50%|█████     | 3/6 [00:12<00:12,  4.08s/it]Loading checkpoint shards:  67%|██████▋   | 4/6 [00:16<00:08,  4.04s/it]Loading checkpoint shards:  83%|████████▎ | 5/6 [00:20<00:04,  4.03s/it]Loading checkpoint shards: 100%|██████████| 6/6 [00:21<00:00,  3.24s/it]Loading checkpoint shards: 100%|██████████| 6/6 [00:21<00:00,  3.66s/it]
+Model loaded: llava-v1.6-vicuna-13b; Conversation mode: llava_v1.
+Model loaded in 25.20s
+[EVAL] Building prompt...
+Prompt built in 0.00s
+[EVAL] Building images...
+Images built in 0.07s
+[EVAL] Running inference...
+Inference ran in 15.40s
+----------------------
+Model output:
+The image is a black and white illustration that captures a scene of a sculptor at work. The sculptor, dressed in a red shirt and a black hat, is seated on a wooden bench. He is engrossed in his work, holding a hammer in his hand, which he uses to shape a piece of stone. The stone is positioned on a wooden stand, providing a stable platform for the sculptor's work.
+
+The background of the illustration provides a glimpse into the artist's workspace. A castle-like structure can be seen, suggesting that the sculptor might be working in a castle or a similar architectural setting. The illustration is signed "F. P. Morin" and is titled "Le sculpteur de gargouilles", indicating that the artist might be specializing in creating gargoyles, which are architectural features often found in Gothic and Gothic Revival architecture. The overall composition of the image suggests a detailed and meticulous approach to the art of sculpture.

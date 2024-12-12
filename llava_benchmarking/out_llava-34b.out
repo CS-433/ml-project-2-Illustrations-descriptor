@@ -1,0 +1,50 @@
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+[EVAL] Loading model...
+Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/15 [00:07<01:50,  7.86s/it]Loading checkpoint shards:  13%|█▎        | 2/15 [00:15<01:37,  7.53s/it]Loading checkpoint shards:  20%|██        | 3/15 [00:22<01:31,  7.66s/it]Loading checkpoint shards:  27%|██▋       | 4/15 [00:31<01:28,  8.04s/it]Loading checkpoint shards:  33%|███▎      | 5/15 [00:40<01:22,  8.27s/it]Loading checkpoint shards:  40%|████      | 6/15 [00:49<01:17,  8.59s/it]Loading checkpoint shards:  47%|████▋     | 7/15 [00:58<01:09,  8.74s/it]Loading checkpoint shards:  53%|█████▎    | 8/15 [01:07<01:01,  8.81s/it]Loading checkpoint shards:  60%|██████    | 9/15 [01:16<00:53,  8.97s/it]Loading checkpoint shards:  67%|██████▋   | 10/15 [01:25<00:44,  8.98s/it]Loading checkpoint shards:  73%|███████▎  | 11/15 [01:34<00:35,  8.96s/it]Loading checkpoint shards:  80%|████████  | 12/15 [01:44<00:27,  9.09s/it]Loading checkpoint shards:  87%|████████▋ | 13/15 [01:53<00:18,  9.08s/it]Loading checkpoint shards:  93%|█████████▎| 14/15 [02:02<00:09,  9.08s/it]Loading checkpoint shards: 100%|██████████| 15/15 [02:29<00:00, 14.59s/it]Loading checkpoint shards: 100%|██████████| 15/15 [02:29<00:00,  9.97s/it]
+Model loaded: llava-v1.6-34b; Conversation mode: chatml_direct.
+Model loaded in 160.14s
+[EVAL] Building prompt...
+Prompt built in 0.01s
+[EVAL] Building images...
+Images built in 0.41s
+[EVAL] Running inference...
+Traceback (most recent call last):
+  File "/home/bergeron/ML/tests_llava.py", line 41, in <module>
+    outputs = predict(model, args, input_ids, images_tensor, image_sizes, tokenizer)
+  File "/home/bergeron/ML/llava_utils.py", line 167, in predict
+    output_ids = model.generate(
+  File "/home/bergeron/.local/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/bergeron/ML/LLaVA/llava/model/language_model/llava_llama.py", line 125, in generate
+    ) = self.prepare_inputs_labels_for_multimodal(
+  File "/home/bergeron/ML/LLaVA/llava/model/llava_arch.py", line 157, in prepare_inputs_labels_for_multimodal
+    image_features = self.encode_images(concat_images)
+  File "/home/bergeron/ML/LLaVA/llava/model/llava_arch.py", line 141, in encode_images
+    image_features = self.get_model().get_vision_tower()(images)
+  File "/home/bergeron/.local/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/bergeron/.local/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/bergeron/.local/lib/python3.9/site-packages/accelerate/hooks.py", line 165, in new_forward
+    output = old_forward(*args, **kwargs)
+  File "/home/bergeron/.local/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/bergeron/ML/LLaVA/llava/model/multimodal_encoder/clip_encoder.py", line 54, in forward
+    image_forward_outs = self.vision_tower(images.to(device=self.device, dtype=self.dtype), output_hidden_states=True)
+  File "/home/bergeron/.local/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/bergeron/.local/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/bergeron/.local/lib/python3.9/site-packages/accelerate/hooks.py", line 160, in new_forward
+    args, kwargs = module._hf_hook.pre_forward(module, *args, **kwargs)
+  File "/home/bergeron/.local/lib/python3.9/site-packages/accelerate/hooks.py", line 290, in pre_forward
+    return send_to_device(args, self.execution_device), send_to_device(
+  File "/home/bergeron/.local/lib/python3.9/site-packages/accelerate/utils/operations.py", line 151, in send_to_device
+    return honor_type(
+  File "/home/bergeron/.local/lib/python3.9/site-packages/accelerate/utils/operations.py", line 83, in honor_type
+    return type(obj)(generator)
+  File "/home/bergeron/.local/lib/python3.9/site-packages/accelerate/utils/operations.py", line 152, in <genexpr>
+    tensor, (send_to_device(t, device, non_blocking=non_blocking, skip_keys=skip_keys) for t in tensor)
+  File "/home/bergeron/.local/lib/python3.9/site-packages/accelerate/utils/operations.py", line 167, in send_to_device
+    return tensor.to(device, non_blocking=non_blocking)
+NotImplementedError: Cannot copy out of meta tensor; no data!
