@@ -1,25 +1,39 @@
 
-# Illustrations Descriptor
 
 ``` 
 Illustrations descriptor/
 ├── src/                          # Source code
 │   ├── Action_Detection/         # Action detection pipeline
-│   │   ├── full_pipeline.py      # Main pipeline script
-│   │   └── extractor.py          # Illustration extraction script
-│   ├── llava_utils.py            # Utilities for LLaVA interaction
-│
+│   │   ├── benchmarking_pipeline.py      # Pipeline to benchmark the LLaVa models
+│   │   ├── full_pipeline.py      # Main pipeline script with LlaVa
+│   │   └── llava_utils.py        # Utilities for LLaVA interaction
+│   ├── Entity_Detection_+_Image_Captioning/
+│   │   ├── benchmarking.ipynb    # Benchmarking entity detection models
+│   │   └── Entity_Detection&_Image_Captioning.ipynb # Entity detection and Image Captioning pipeline
+│   ├── Evaluation/
+│       └── BERTScore.ipynb       # Quantitative evaluation on Llava outputs
+│   ├── Data_Analysis/
+│       └── Entity_EDA.ipynb      # Data Analysis on the entity detection results
+│   ├── Illustration_Detection/
+│   │   ├── extractor.py          # Illustration extraction script
+│   │   └── annotator.py          # Annotator for illustration detection
 ├── output/                       # Outputs
 │   ├── Entity_Caption.csv        # Captions for entities
 │   ├── LLaVA_Outputs.csv         # Action detection outputs
+│   ├── Illustrations_Detection_Performances.csv  # Performances results of the Illustration detection process
+│   ├── preprocessed_METADATA.txt  # Statistics of illustrations extraction for each pdf
+|   └── llava_benchmarking/
+|       └── ....out               # Results of 1 benchmark test for a llava model
 │
-├── Data Analysis/                # Notebooks for evaluation
-│   ├── Benchmarking.ipynb        # Model benchmarking
-│   └── Entity_Detection.ipynb    # Entity detection analysis
+├── 20_samples/                   # sample images
 │
-├── requirements.txt              # Python dependencies
+├── out.md                        # Examples of outputs from LLaVa
 └── README.md                     # Project documentation
 ```
+## Important Note
+
+This is a ML4Science project so it is not feasible or necessary to reproduce our work. For `Action Detection`, we submitted the job to scitas. For `Entity Detection`, we mostly work on Google Drive. Due to the large size of our dataset, we didn't upload it here either. You can find our output in the `output` folder, in the files `Entity_Caption.csv`, `LlaVa_Outputs.csv` and `preprocessing_METADATA.txt`.
+
 
 ## Overview
 
