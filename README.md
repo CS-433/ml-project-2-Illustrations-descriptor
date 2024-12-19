@@ -17,7 +17,6 @@ Illustrations descriptor/
 │   ├── Benchmarking.ipynb        # Model benchmarking
 │   └── Entity_Detection.ipynb    # Entity detection analysis
 │
-├── annotations/                  # Annotated examples for validation
 ├── requirements.txt              # Python dependencies
 └── README.md                     # Project documentation
 ```
