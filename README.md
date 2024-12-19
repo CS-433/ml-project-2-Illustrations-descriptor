@@ -1,8 +1,26 @@
 
 # Illustrations Descriptor
 
-Illustrations descriptor/ │ ├── src/ # Source code │ ├── Action_Detection/ # Action detection pipeline │ │ ├── full_pipeline.py # Main pipeline script │ │ └── extractor.py # Illustration extraction script │ ├── llava_utils.py # Utilities for LLaVA interaction │ ├── output/ # Outputs │ ├── Entity_Caption.csv # Captions for entities │ ├── LLaVA_Outputs.csv # Action detection outputs │ ├── Data Analysis/ # Notebooks for evaluation │ ├── Benchmarking.ipynb # Model benchmarking │ └── Entity_Detection.ipynb # Entity detection analysis │ ├── annotations/ # Annotated examples for validation ├── requirements.txt # Python dependencies └── README.md # Project documentation
-
+``` 
+Illustrations descriptor/
+├── src/                          # Source code
+│   ├── Action_Detection/         # Action detection pipeline
+│   │   ├── full_pipeline.py      # Main pipeline script
+│   │   └── extractor.py          # Illustration extraction script
+│   ├── llava_utils.py            # Utilities for LLaVA interaction
+│
+├── output/                       # Outputs
+│   ├── Entity_Caption.csv        # Captions for entities
+│   ├── LLaVA_Outputs.csv         # Action detection outputs
+│
+├── Data Analysis/                # Notebooks for evaluation
+│   ├── Benchmarking.ipynb        # Model benchmarking
+│   └── Entity_Detection.ipynb    # Entity detection analysis
+│
+├── annotations/                  # Annotated examples for validation
+├── requirements.txt              # Python dependencies
+└── README.md                     # Project documentation
+```
 
 ## Overview
 
